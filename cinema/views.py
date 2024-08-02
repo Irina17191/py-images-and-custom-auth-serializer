@@ -108,7 +108,6 @@ class MovieViewSet(
 
         return MovieSerializer
 
-
     @action(
         methods=["POST"],
         detail=True,
